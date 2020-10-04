@@ -16,9 +16,9 @@ public class TaskButtons : MonoBehaviour
 		}
 	}
 
-	private IEnumerator TurnOffTasksAndParent(float animationTime)
+	private IEnumerator TurnOffTasksAndParent(float animationTIime)
 	{
-		yield return new WaitForSeconds(animationTime);
+		yield return new WaitForSeconds(animationTIime);
 		foreach (Transform child in parent.transform)
 		{
 			if (child.CompareTag("Task"))
