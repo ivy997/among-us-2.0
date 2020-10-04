@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Asteroid
   - Button
+  - Task
   layers:
   - Default
   - TransparentFX
